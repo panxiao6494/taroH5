@@ -1,0 +1,192 @@
+#detail_index {
+  background-color: #fff;
+  font-size: 33px;
+}
+#detail_index .top_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: center;
+  z-index: 92;
+}
+#detail_index .top_bar .taro-img {
+  margin-left: 15px;
+}
+#detail_index .left_share {
+  position: fixed;
+  z-index: 98;
+  top: 78px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f67ea1;
+  font-size: 20px;
+}
+#detail_index .left_share .share_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+#detail_index .left_share .share_img .taro-img {
+  width: 43px;
+  height: 29px;
+  margin: 0;
+}
+#detail_index .left_share .taro-img {
+  width: 50px;
+  height: 50px;
+  margin-top: 18px;
+}
+#detail_index .content {
+  margin-top: 95px;
+}
+#detail_index .content .pro_name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#detail_index .content .pro_name .xuanchuan_img {
+  width: 100%;
+  height: 550px;
+  margin-top: 10px;
+}
+#detail_index .content .pro_name .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: -60px;
+  height: 60px;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+}
+#detail_index .content .pro_name .price span:nth-child(2) {
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+}
+#detail_index .content .pro_name .percent {
+  position: absolute;
+  color: #fff;
+  right: 40px;
+  bottom: 52px;
+  font-size: 26px;
+  font-weight: normal;
+}
+#detail_index .content .pro_show {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+#detail_index .content .pro_show .shop_de {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#detail_index .content .pro_show .shop_describe {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+#detail_index .content .pro_show .shop_describe > div {
+  display: flex;
+  align-items: center;
+}
+#detail_index .content .pro_show .shop_describe .color_pro {
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  background-color: #D2D2D2;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+#detail_index .content .comment {
+  padding: 15px 0;
+  width: 95%;
+  margin: 5px auto  90px;
+  box-sizing: border-box;
+  border-top: 1px solid #999;
+  font-size: 28px;
+}
+#detail_index .content .comment .comm_item {
+  border-bottom: 1px solid #999;
+  padding: 12px;
+}
+#detail_index .content .comment .comm_item .comm_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+  margin-bottom: 10px;
+}
+#detail_index .content .comment .comm_item .comm_head > span {
+  font-size: 22px;
+}
+#detail_index .content .comment .comm_item .comm_con {
+  line-height: 35px;
+}
+#detail_index .content .comment .comm_item:nth-last-child(2) {
+  border-bottom: 0;
+}
+#detail_index .content .more {
+  width: 142px;
+  text-align: center;
+  margin: 15px auto;
+  color: #999;
+  border-bottom: 1px solid #999;
+}
+#detail_index .bottom_bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  border-top: 1px solid #999;
+  background-color: #fff;
+  z-index: 100;
+}
+#detail_index .bottom_bar .go_buy {
+  text-align: center;
+  width: 46%;
+  height: 100%;
+  line-height: 90px;
+  background-color: #f67ea1;
+  color: #fff;
+}
+#detail_index .bottom_bar .bt_img {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+#detail_index .bottom_bar .taro-img {
+  width: 30px;
+  height: 30px;
+}

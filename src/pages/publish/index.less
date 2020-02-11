@@ -1,0 +1,148 @@
+@bgColor:#f67ea1;
+#publish_index{
+    font-size: 30px;
+    padding-bottom: 100px;
+    background-color: #F6F6F6;
+    .content{
+        width: 94%;
+        margin: 90px auto 30px;
+    }
+    .pro_head{
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        color: #444;
+        padding: 12px 0;
+    }
+    .pro_ipt{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        border-radius: 15px;
+        background-color: #fff;
+        font-size: 26px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        .shuxian{
+            width: 6px;
+            height: 34px;
+            background-color: @bgColor;
+            margin-right: 15px;
+        }
+    }
+    .pro_describe{
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: #fff;
+        padding: 0 20px;
+        .pro_ipt{
+            border-bottom: 1px solid #ccc;
+            margin: 0;
+            border-radius: 0;
+            padding: 0;
+        }
+        .describe_text{
+            width: 100%;
+            height: 170px;
+            border: none;
+            resize: none;
+            outline: none;
+            padding: 10px;
+        }
+    }
+ .img_list{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     .img_item{
+         position: relative;
+         width: 23%;
+         height: 158px;
+         display: flex;
+         flex-direction: column;
+         margin-right: 13px;
+         margin-bottom: 15px;
+         font-size: 20px;
+         background-color: #DCDCDC;
+         color: #fff;
+         border-radius: 10px;
+         .delete_img{
+             position: absolute;
+             right: 10px;
+             top: 7px;
+             width: 32px;
+             height: 32px;
+         }
+     }
+     .img_item:nth-child(1){
+         background-color: @bgColor;
+         justify-content: center;
+         align-items: center;
+         .taro-img{
+            width: 40px;
+            height: 40px;
+        }
+     }
+ }
+ .price_de{
+     width: 100%;
+     background-color: #fff;
+     padding: 0 20px;
+     box-sizing: border-box;
+     border-radius: 15px;
+     font-size: 26px;
+     &>div{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 0;
+         color: #333;
+         input{
+             width: 126px;
+         }
+     }
+     &>div:nth-child(1){
+         border-bottom: 1px solid #ccc;
+     }
+     .taro-img{
+         width: 35px;
+         height: 35px;
+         margin-right: 15px;
+     }
+ }
+ .agreement{
+     background-color: #fff;
+     margin-top: 20px;
+     padding: 20px;
+     border-radius: 15px;
+     font-size: 28px;
+     .agree_head{
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 5px;
+         .taro-img{
+             width: 35px;
+             height: 35px;
+         }
+         .shuxian{
+            width: 6px;
+            height: 34px;
+            background-color: @bgColor;
+            margin-right: 15px;
+         }
+     }
+ }
+ .publish_btn{
+     width: 100%;
+     height: 60px;
+     line-height: 60px;
+     margin: 20px 0 50px;
+     font-size: 26px;
+     text-align: center;
+     background-color: @bgColor;
+     color: #fff;
+     border-radius: 6px;
+ }
+}

@@ -1,0 +1,193 @@
+@bgColor:#F8779D;
+#index_idx {
+  font-size: 26px;
+  background-color: #f2f2f2;
+  padding-bottom: 160px;
+  .head{
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 285px;
+    margin-bottom: 80px;
+    .swiper_box{
+      width: 100%;
+      .mebg{
+        width: 100%;
+        height: 320px;
+      }
+    }
+  }
+    .login {
+      width: 96px;
+      height: 46px;
+      line-height:46px;
+      text-align: center;
+      color: @bgColor;
+      border: 1px solid @bgColor;
+      border-radius: 23px;
+    }
+    .idots{
+      position: absolute;
+      top: 240px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 5px;
+      overflow: hidden;
+      z-index: 15;
+      div{
+       float: left;
+        width: 40px;
+        height: 10px;
+        background-color: #ccc;
+      }
+      .active{
+        background-color: #fff;
+      }
+    }
+    .tab_game{
+      width: 90%;
+      margin: auto;
+      color: #777;
+      div{
+        display: inline-block;
+        margin-right: 40px;
+      }
+      .active{
+          font-size: 32px;
+          border-bottom: 6px solid @bgColor;
+          margin-right: 28px;
+          color: #000;
+      }
+      .more{
+        float: right;
+        margin-right: 0;
+        color: #000;
+        margin-top: 10px;
+      }
+  }
+  .left_cate{
+    display: flex;
+    flex-wrap: wrap;
+    padding:15px;
+    .game_box{
+       position: relative;
+       text-align: center;
+       width: 25%;
+       margin-bottom: 38px;
+       .text_box{
+           position: absolute;
+           width: 100%;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+           bottom: -26px;
+       }
+       .game_img{
+          width: 120px;
+          height: 120px;
+        
+       }
+    }
+}
+
+.history_product{
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 20px 38px;
+  .scroll_pro{
+   margin-right: 38px;
+   .pro_item{
+     position: relative;
+     width: 180px;
+     height: 180px;
+     border-radius: 12px;
+     overflow: hidden;
+     .item_price{
+       position: absolute;
+       width: 100%;
+       left: 0;
+       bottom: 0;
+       color: @bgColor;
+       font-size: 28px;
+       font-weight: bold;
+       text-indent: 36px;
+       background-color: rgba(0, 0, 0, .5)
+     }
+     .taro-img{
+       width: 100%;
+       height: 100%;
+     }
+   }
+  }
+}
+.comment_box{
+  background-color: #fff;
+  margin-top: 15px;
+  padding:20px 30px 25px;
+
+  .item_bg{
+    background-color: #FEF1F5;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    .star{
+      display: flex;
+      align-items: center;
+      position: relative;
+      border-bottom: 1PX solid #888;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+     .star_box{
+       position: absolute;
+       left: 0;
+       top: 0;
+     }
+    }
+    .bottom_a{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 22px;
+    }
+  }
+}
+.copy_right{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding:20px 70px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #444;
+  margin-bottom: 45px;
+  div{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 10px 0;
+    &::after{
+      display: inline-block;
+      content: '';
+      width: 1PX;
+      height: 100%;
+      background-color: #444;
+      margin:0 20px;
+    }
+  }
+ 
+ .font_bg{
+   color: @bgColor;
+ }
+}
+.bt_line{
+  display: flex;
+  align-items: center;
+  color: #999;
+  .lin{
+    flex: 1;
+    height: 1.5px;
+    background-color: #999;
+  }
+}
+}
+

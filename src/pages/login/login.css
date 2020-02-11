@@ -1,0 +1,24 @@
+.loginBox {
+  position: relative;
+  top: 6rem;
+  width: 86%;
+  margin: auto;
+  padding: 1.6rem 1rem;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px #f4f4f4;
+}
+.loginBox input {
+  border: 1px solid #ccc;
+  border-radius: 0.1rem;
+  margin-top: 0.3rem;
+  text-indent: 0.2rem;
+}
+.loginBox .login {
+  background-color: #649EFA;
+  margin-top: 0.4rem;
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: 0.1rem;
+  border: 1px solid transparent;
+}

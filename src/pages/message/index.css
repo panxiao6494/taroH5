@@ -1,0 +1,79 @@
+#msg_index {
+  min-height: 100vh;
+  background-color: #f6f6f6;
+  font-size: 30px;
+  overflow-x: hidden;
+}
+#msg_index .content {
+  position: relative;
+  top: 96px;
+}
+#msg_index .content .msg_time {
+  text-align: center;
+  margin: 12px 0 3px;
+  font-size: 22px;
+  color: #666;
+}
+#msg_index .content .bgccc {
+  background-color: #fefefe !important;
+}
+#msg_index .content .pro_long {
+  position: relative;
+}
+#msg_index .content .pro_long .delete {
+  position: absolute;
+  top: 0;
+  width: 140px;
+  height: 100%;
+  right: -140px;
+  background-color: #F8779D;
+  z-index: 99;
+}
+#msg_index .content .pro_long .delete .taro-img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#msg_index .content .active {
+  animation: trans 0.2s linear forwards;
+}
+#msg_index .content .msg_box {
+  margin-top: 10px;
+}
+#msg_index .content .msg_box .item_box {
+  position: relative;
+  display: flex;
+  padding: 18px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+#msg_index .content .msg_box .item_box .rig_msg {
+  flex: 1;
+}
+#msg_index .content .msg_box .item_box .rig_top {
+  display: flex;
+  justify-content: space-between;
+}
+#msg_index .content .msg_box .item_box .rig_top span:nth-child(2) {
+  font-size: 26px;
+  color: #666;
+}
+#msg_index .content .msg_box .item_box .rig_bt {
+  margin-top: 10px;
+  color: #666;
+  font-size: 28px;
+}
+#msg_index .content .avator_img {
+  width: 100px;
+  height: 100px;
+  margin-right: 28px;
+  border-radius: 50%;
+}
+@keyframes trans {
+  100% {
+    transform: translateX(-140px);
+  }
+}
